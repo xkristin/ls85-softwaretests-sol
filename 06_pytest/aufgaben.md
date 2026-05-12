@@ -1,4 +1,4 @@
-# Baustein 06 – pytest 🔴
+﻿# Baustein 06 – pytest 🔴
 
 > **Schwierigkeit:** 🔴 Transfer  
 > **Zeitrahmen:** ca. 150 Minuten  

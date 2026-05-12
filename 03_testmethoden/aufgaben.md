@@ -1,4 +1,4 @@
-# Baustein 03 – Testmethoden 🟡
+﻿# Baustein 03 – Testmethoden 🟡
 
 > **Schwierigkeit:** 🟡 Anwendung  
 > **Zeitrahmen:** ca. 120 Minuten  

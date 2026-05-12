@@ -1,4 +1,4 @@
-# Baustein 01 – Grundlagen der Softwaretests 🟢
+﻿# Baustein 01 – Grundlagen der Softwaretests 🟢
 
 > **Schwierigkeit:** 🟢 Grundlagen  
 > **Zeitrahmen:** ca. 90 Minuten  

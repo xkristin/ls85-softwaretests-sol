@@ -1,4 +1,4 @@
-# Baustein 02 – Testarten 🟢
+﻿# Baustein 02 – Testarten 🟢
 
 > **Schwierigkeit:** 🟢 Grundlagen  
 > **Zeitrahmen:** ca. 90 Minuten  

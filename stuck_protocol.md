@@ -1,4 +1,4 @@
-# Stuck Protocol – Was tun, wenn ihr nicht weiterkommt?
+﻿# Stuck Protocol – Was tun, wenn ihr nicht weiterkommt?
 
 > Dieses Protokoll gilt für alle Bausteine in LS 8.5.
 > Arbeitet die Stufen **der Reihe nach** ab. Kein Überspringen.

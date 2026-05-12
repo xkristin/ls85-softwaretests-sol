@@ -1,4 +1,4 @@
-# Baustein 04 – Äquivalenzklassen & Grenzwertanalyse 🟡
+﻿# Baustein 04 – Äquivalenzklassen & Grenzwertanalyse 🟡
 
 > **Schwierigkeit:** 🟡 Anwendung  
 > **Zeitrahmen:** ca. 120 Minuten  

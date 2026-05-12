@@ -1,4 +1,4 @@
-# Baustein 05 – Python unittest 🟡
+﻿# Baustein 05 – Python unittest 🟡
 
 > **Schwierigkeit:** 🟡 Anwendung  
 > **Zeitrahmen:** ca. 120 Minuten  

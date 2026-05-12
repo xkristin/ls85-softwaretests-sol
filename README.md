@@ -1,4 +1,4 @@
-# LS 8.5 – Softwaretests
+﻿# LS 8.5 – Softwaretests
 
 > **Lernfeld 8** · Fachinformatiker/in · 2. Ausbildungsjahr · Berufskolleg
 
