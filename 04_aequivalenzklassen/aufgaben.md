@@ -6,6 +6,17 @@
 
 ---
 
+## 📖 Vorbereitung
+
+> **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
+
+Teste dein Vorwissen mit dem Forms-Quiz:  
+👉 [Forms-Quiz Baustein 04](FORMS_LINK_HIER)
+
+> ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
+
+---
+
 ## Selbsteinschätzung – Vorher
 
 - [ ] 🟢 Ich weiß, was Äquivalenzklassen sind

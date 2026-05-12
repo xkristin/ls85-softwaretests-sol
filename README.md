@@ -6,55 +6,7 @@
 
 ## 🗺️ Lernlandkarte
 
-```
-START
-  │
-  ▼
-┌──────────────────────┐
-│  01 · Grundlagen     │  🟢 Was ist Testen? Warum? Begriffe
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  02 · Testarten      │  🟢 Unit · Integration · System · Abnahme
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  03 · Testmethoden   │  🟡 Black-Box · White-Box · Grey-Box
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  04 · Äquivalenz-    │  🟡 Klassen · Grenzwertanalyse
-│       klassen        │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  05 · unittest       │  🟡 Python unittest · TestCase · Assertions
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  06 · pytest         │  🔴 Fixtures · Parametrisierung · Plugins
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  07 · TDD            │  🔴 Red → Green → Refactor
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│  08 · Dokumentation  │  🔴 Testplan · Testbericht · Qualitätsnachweis
-└──────────┬───────────┘
-           │
-           ▼
-          ZIEL ✅
-```
-
-**Schwierigkeitsgrade:** 🟢 Grundlagen · 🟡 Anwendung · 🔴 Transfer
+![Lernlandkarte LS 8.5](assets/lernlandkarte.png)
 
 ---
 
