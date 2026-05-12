@@ -1,0 +1,124 @@
+"""
+Baustein 04 – Äquivalenzklassen & Grenzwertanalyse
+Startvorlage – bearbeite diese Datei für deine Aufgaben.
+"""
+
+
+# ============================================================
+# Aufgabe 1 – Mengenvalidierung
+# ============================================================
+
+def validiere_menge(menge) -> bool:
+    """
+    Prüft, ob eine Bestellmenge gültig ist.
+
+    Regeln:
+    - Typ: ganzzahlig
+    - Minimum: 1
+    - Maximum: 999
+
+    Returns:
+        True wenn gültig, False wenn ungültig.
+    """
+    # TODO: Implementiere die Validierungslogik
+    pass
+
+
+# ============================================================
+# Aufgabe 2 – Passwortprüfung
+# ============================================================
+
+def pruefe_passwort(passwort: str) -> bool:
+    """
+    Prüft, ob ein Passwort den Anforderungen entspricht.
+
+    Regeln:
+    - Länge: 8–64 Zeichen
+    - Mindestens ein Großbuchstabe
+    - Mindestens eine Ziffer
+    - Keine Leerzeichen
+
+    Returns:
+        True wenn gültig, False wenn ungültig.
+    """
+    # TODO: Implementiere die Prüflogik
+    # Hinweis: str.isupper(), str.isdigit(), ' ' in passwort
+    pass
+
+
+# ============================================================
+# Aufgabe 4 – Notenberechnung (IHK-Stil)
+# ============================================================
+
+def berechne_note(punkte: int) -> int:
+    """
+    Gibt die Note (1–6) für eine Punktzahl zurück.
+
+    Skala:
+        92–100 → 1
+        81–91  → 2
+        67–80  → 3
+        50–66  → 4
+        30–49  → 5
+        0–29   → 6
+
+    Raises:
+        ValueError: Wenn punkte außerhalb [0, 100] liegt.
+    """
+    # TODO: Implementiere die Notenberechnung
+    pass
+
+
+# ============================================================
+# Tests (manuelle Überprüfung)
+# ============================================================
+
+if __name__ == "__main__":
+
+    # --- Aufgabe 1: validiere_menge ---
+    print("=== Aufgabe 1: validiere_menge ===")
+
+    # Äquivalenzklassen testen:
+    # TODO: Gültige Klasse (z. B. menge = 50)
+    # TODO: Ungültige Klasse Untergrenze (z. B. menge = 0)
+    # TODO: Ungültige Klasse Obergrenze (z. B. menge = 1000)
+    # TODO: Falscher Typ (z. B. menge = "viel")
+
+    # Grenzwerte testen:
+    # TODO: Grenzwert 0, 1, 999, 1000
+    for testfall in [0, 1, 500, 999, 1000, -1, "abc"]:
+        try:
+            ergebnis = validiere_menge(testfall)
+            print(f"  validiere_menge({testfall!r}) → {ergebnis}")
+        except Exception as e:
+            print(f"  validiere_menge({testfall!r}) → Exception: {e}")
+
+    # --- Aufgabe 2: pruefe_passwort ---
+    print("\n=== Aufgabe 2: pruefe_passwort ===")
+    testpasswoerter = [
+        "Abc12345",       # gültig
+        "abc12345",       # kein Großbuchstabe
+        "ABCDEFGH",       # keine Ziffer
+        "Abc 1234",       # Leerzeichen
+        "Ab1",            # zu kurz
+        "A" * 64 + "1",  # zu lang
+    ]
+    for pw in testpasswoerter:
+        print(f"  pruefe_passwort({pw!r}) → {pruefe_passwort(pw)}")
+
+    # --- Aufgabe 4: berechne_note ---
+    print("\n=== Aufgabe 4: berechne_note ===")
+    # Alle Notengrenzen testen (Grenzwertanalyse):
+    grenzwerte = [0, 29, 30, 49, 50, 66, 67, 80, 81, 91, 92, 100]
+    for p in grenzwerte:
+        try:
+            print(f"  berechne_note({p}) → {berechne_note(p)}")
+        except ValueError as e:
+            print(f"  berechne_note({p}) → ValueError: {e}")
+
+    # Ungültige Werte:
+    for p in [-1, 101]:
+        try:
+            print(f"  berechne_note({p}) → {berechne_note(p)}")
+        except ValueError as e:
+            print(f"  berechne_note({p}) → ValueError: {e}")

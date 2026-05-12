@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\workspace\\\\ls85-softwaretest\\\\\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object FullName | Sort-Object FullName)",
+      "PowerShell(Get-ChildItem \"C:\\\\workspace\\\\ls85-softwaretest\" -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\workspace\\\\ls85-softwaretest\\\\\", \"\"\\) } | Sort-Object)"
+    ]
+  }
+}

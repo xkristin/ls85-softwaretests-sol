@@ -1,0 +1,169 @@
+# Baustein 02 – Testarten 🟢
+
+> **Schwierigkeit:** 🟢 Grundlagen  
+> **Zeitrahmen:** ca. 90 Minuten  
+> [Nicht weitergekommen? → Stuck Protocol](../stuck_protocol.md)
+
+---
+
+## Selbsteinschätzung – Vorher
+
+- [ ] 🟢 Ich kenne die verschiedenen Testarten bereits
+- [ ] 🟡 Ich kenne manche Begriffe, aber nicht alle
+- [ ] 🔴 Das Thema ist mir neu
+
+---
+
+## Lernziele
+
+Nach diesem Baustein kannst du …
+
+- 🟢 … die vier Teststufen (Unit, Integration, System, Abnahmetest) benennen und erklären
+- 🟢 … das V-Modell skizzieren und die Testebenen korrekt einordnen
+- 🟢 … den Unterschied zwischen funktionalen und nicht-funktionalen Tests beschreiben
+- 🟡 … erklären, was Regressionstests sind und wann sie eingesetzt werden
+- 🟡 … Testarten einem Praxisszenario korrekt zuordnen
+
+---
+
+## Hintergrund
+
+Software wird selten als Ganzes entwickelt und dann einmal getestet.
+In der Praxis gibt es mehrere Teststufen, die aufeinander aufbauen – ähnlich wie bei der
+Qualitätskontrolle in der Fertigung: Erst werden Einzelteile geprüft, dann Baugruppen,
+dann das Gesamtprodukt, und schließlich der Kunde nimmt ab.
+
+Das **V-Modell** visualisiert diesen Zusammenhang zwischen Entwicklungs- und Teststufen.
+
+---
+
+## Aufgabe 1 – Die vier Teststufen 🟢
+
+Lies die Beschreibungen und ordne sie den Teststufen zu.
+
+| Beschreibung | Teststufe |
+|-------------|-----------|
+| Testet einzelne Funktionen oder Methoden isoliert | |
+| Prüft das Zusammenspiel mehrerer Module | |
+| Testet das gesamte System gegen die Anforderungen | |
+| Der Auftraggeber prüft, ob seine Anforderungen erfüllt sind | |
+
+**Teststufen:** Unit-Test · Integrationstest · Systemtest · Abnahmetest (User Acceptance Test)
+
+Trage die Tabelle ausgefüllt in `starter.py` als Kommentar ein.
+
+---
+
+## Aufgabe 2 – Praxisszenario Webshop 🟢
+
+Ein Team entwickelt einen einfachen Online-Webshop mit folgenden Komponenten:
+- `preisberechnung.py` – berechnet Gesamtpreis mit Rabatt
+- `warenkorb.py` – verwaltet Artikel im Warenkorb
+- `bestellprozess.py` – verarbeitet eine Bestellung (Warenkorb + Zahlung + Lager)
+- Gesamtsystem: Benutzer legt Artikel in Warenkorb und bestellt
+
+**a)** Nenne je ein Testbeispiel für jede Teststufe in diesem Webshop.
+
+| Teststufe | Konkretes Testbeispiel |
+|-----------|----------------------|
+| Unit-Test | |
+| Integrationstest | |
+| Systemtest | |
+| Abnahmetest | |
+
+**b)** In `code/starter.py` findest du die Funktion `berechne_gesamtpreis()`.
+Schreibe einen einfachen manuellen Test (mit `print()`), der folgende Fälle prüft:
+- Normaler Einkauf ohne Rabatt
+- Einkauf mit 10 % Rabatt
+- Leerer Warenkorb (Sonderfall!)
+
+---
+
+## Aufgabe 3 – Funktional vs. nicht-funktional 🟢
+
+Ordne die folgenden Testszenarien zu:
+
+| Testszenario | Funktional | Nicht-funktional |
+|-------------|-----------|-----------------|
+| Login mit korrekten Zugangsdaten klappt | | |
+| Seite lädt in unter 2 Sekunden | | |
+| Bestellung wird korrekt in der Datenbank gespeichert | | |
+| System ist bei 1000 gleichzeitigen Nutzern stabil | | |
+| Passwort-Reset-Mail wird verschickt | | |
+| Alle Texte sind auf Deutsch (Lokalisierung) | | |
+
+---
+
+## Aufgabe 4 – Regressionstests 🟡
+
+**Szenario:**  
+Dein Team hat den Rabattrechner aus Baustein 01 korrigiert.
+Jetzt soll eine neue Funktion "Mengenrabatt" (ab 10 Stück = 5 % extra Rabatt) hinzugefügt werden.
+
+**a)** Was ist ein Regressionstest? Erkläre mit eigenen Worten.
+
+**b)** Welche bestehenden Tests müssten nach der Änderung als Regressionstests erneut ausgeführt werden? Liste mindestens 3 auf.
+
+**c)** Warum ist das automatisierte Ausführen von Regressionstests besonders wertvoll?
+
+---
+
+## Aufgabe 5 – IHK-Stil 🟡
+
+**Prüfungsszenario:**
+
+Ein Ausbildungsbetrieb entwickelt eine Zeiterfassungssoftware.
+Das Entwicklungsteam hat folgende Testmaßnahmen geplant:
+
+- Entwickler testen ihre eigenen Funktionen mit isolierten Tests
+- Anschließend werden die Module Zeiterfassung, Benutzerverwaltung und Auswertung gemeinsam getestet
+- Das HR-Team führt abschließend einen formalen Abnahmetest durch
+
+**(a)** Ordnen Sie diese drei Maßnahmen den Teststufen im V-Modell zu. *(3 Punkte)*
+
+**(b)** Nennen Sie eine weitere Teststufe, die im Plan fehlt, und beschreiben Sie, was dort getestet werden sollte. *(3 Punkte)*
+
+**(c)** Das HR-Team meldet beim Abnahmetest, dass Urlaubstage falsch berechnet werden. Auf welcher Teststufe hätte dieser Fehler idealerweise gefunden werden sollen? Begründen Sie. *(4 Punkte)*
+
+---
+
+## Tandem-Aufgabe 👥
+
+**Szenario für zwei Personen:**
+
+Ihr seid das Testteam für eine Schulverwaltungssoftware.
+Eure Aufgabe: Erstellt gemeinsam einen Überblick über alle Testmaßnahmen.
+
+- Person A: Entwirft die Unit-Tests und Integrationstests (welche Module, welche Schnittstellen?)
+- Person B: Plant den Systemtest und Abnahmetest (welche Szenarien, wer testet?)
+- Zusammen: Prüft, ob alle kritischen Funktionen abgedeckt sind
+
+Haltet euer Ergebnis als Tabelle in `02_antworten.md` fest.
+
+---
+
+## Active Recall – Mini-Quiz 🧠
+
+*Beantworte diese Fragen aus dem Gedächtnis (Unterlagen geschlossen):*
+
+1. Auf welcher Teststufe werden Schnittstellen zwischen Modulen getestet?
+2. Wer führt typischerweise den Abnahmetest durch?
+3. Was ist der Unterschied zwischen einem Systemtest und einem Abnahmetest?
+4. Nenne ein Beispiel für einen nicht-funktionalen Test.
+5. Wann werden Regressionstests eingesetzt?
+
+---
+
+## Reflexion 🚦
+
+- [ ] 🟢 Ich kann alle Teststufen erklären und anwenden
+- [ ] 🟡 Ich verstehe das Konzept, aber die Abgrenzung ist noch nicht ganz klar
+- [ ] 🔴 Ich brauche noch Unterstützung
+
+**Was nimmst du mit?**
+
+> _______________________________________________
+
+---
+
+*Bei Problemen → [Stuck Protocol](../stuck_protocol.md)*
