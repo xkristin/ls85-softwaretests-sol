@@ -42,7 +42,7 @@ code .
 ### Schritt 3 – Arbeiten
 
 1. Öffnet den passenden Baustein-Ordner in VS Code
-2. Lest `aufgaben.md` vollständig durch – inkl. Lernziele und Selbsteinschätzung
+2. Lest erst `theorie.md` und `aufgaben.md` vollständig durch – inkl. Lernziele und Selbsteinschätzung
 3. Bearbeitet `code/starter.py`
 4. Testet euren Code lokal, bevor ihr committet
 5. Committet mit sinnvoller Nachricht:
