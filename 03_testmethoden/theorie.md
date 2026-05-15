@@ -9,6 +9,8 @@
 
 In **Baustein 02** hast du gelernt, *wann* welche Teststufe eingesetzt wird. In diesem Baustein geht es darum, *wie* man Testfälle gezielt entwirft. Die zentrale Frage: Wie viel weißt du über den Code, den du testest?
 
+![Testmethoden](../assets/03_testmethoden.png)
+
 ---
 
 ## Black-Box-Test (Funktionaler Test)

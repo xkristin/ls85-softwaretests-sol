@@ -9,16 +9,7 @@
 
 In **Baustein 01** hast du gelernt, dass Testen Fehler aufdeckt – aber nicht alle Tests sind gleich wertvoll oder gleich teuer. Die **Testpyramide** zeigt, wie Tests sinnvoll verteilt werden sollten:
 
-```
-        /\
-       /  \         Systemtests / Abnahmetests
-      /────\         (wenige, langsam, teuer)
-     /      \
-    /────────\       Integrationstests (mittel)
-   /          \
-  /────────────\     Unit-Tests
- /              \    (viele, schnell, günstig)
-```
+![Testpyramide](../assets/02_testpyramide.png)
 
 **Grundprinzip:** Viele schnelle Unit-Tests an der Basis, wenige langsame Systemtests an der Spitze. Je weiter oben, desto teurer und langsamer ist der Test – und desto schwieriger ist es, den Fehler darin zu lokalisieren.
 

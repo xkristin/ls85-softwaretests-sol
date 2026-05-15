@@ -15,6 +15,8 @@ In **Baustein 01** hast du gelernt: Vollständiges Testen ist unmöglich. Eine F
 
 ## Äquivalenzklassenbildung
 
+![Äquivalenzklassen](../assets/04_Aequivalenzklassen.png)
+
 **Grundidee:** Teile alle möglichen Eingaben in Gruppen (Klassen) ein, in denen sich das System für alle Werte **gleich verhält**. Dann reicht ein einziger repräsentativer Wert pro Klasse.
 
 Man unterscheidet immer:

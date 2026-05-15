@@ -61,18 +61,11 @@ aufgrund der unendlichen Zahl möglicher Eingaben praktisch unmöglich.
 
 Das V-Modell ordnet jeder Entwicklungsphase eine korrespondierende Testphase gegenüber:
 
-```
-Anforderungsanalyse  <─────────────────────>  Abnahmetest (UAT)
-   Systementwurf       <─────────────────>     Systemtest
-      Architektur        <─────────────>        Integrationstest
-         Implementierung  ─────────────>        Modultest (Unit Test)
-```
+![V-Modell](../assets/01_v-modell.png)
 
 Linke Seite = Entwicklung, rechte Seite = Test. Testplanung beginnt **parallel zur Entwicklung**,
 nicht erst danach. Die **Rule of Ten** besagt: Ein Fehler kostet in jeder nächsten Phase
 ca. 10-mal mehr zur Behebung als in der vorherigen.
-
-![V-Modell](../assets/01_v-modell.png)
 
 ---
 
@@ -140,8 +133,7 @@ def berechne_mehrwertsteuer(netto_preis: float) -> float:
 | [ISTQB – istqb.org](https://www.istqb.org) | Offizielle Seite der ISTQB-Zertifizierung: Glossare, Lehrpläne, Prüfungsinfos (englisch) |
 | [pytest Dokumentation](https://docs.pytest.org) | Vollständige Doku des meistgenutzten Python-Test-Frameworks |
 | [unittest – Python Docs](https://docs.python.org/3/library/unittest.html) | Eingebautes Testframework in Python, kein separates Install nötig |
-| [Guru99 – Software Testing](https://www.guru99.com/software-testing.html) | Praxisnaher Einstiegsartikel mit vielen Beispielen (englisch) |
-| [t2informatik – Software Testing](https://t2informatik.de/wissen-kompakt/software-testing/) | Kompakte deutschsprachige Einführung mit Begriffsdefinitionen und Überblick |
+| [Guru99 – Software Testing Grundlagen (englisch)](https://www.guru99.com/software-testing.html) | Praxisnaher Einstiegsartikel mit vielen Beispielen (englisch) |
 
 ---
 
