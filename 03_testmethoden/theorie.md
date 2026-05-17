@@ -116,10 +116,8 @@ Der Black-Box-Ansatz hätte den Negativwert-Zweig möglicherweise übersehen –
 ---
 
 ### 🎮 Lernkarten & Wiederholung
-- <a href="https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt" target="_blank" rel="noopener noreferrer">
-📦 Alle Lernkarten LS 8.5 – Quizlet Ordner</a>
-- <a href="https://quizlet.com/de/1179918735/03-testmethoden-flash-cards/?i=20ii9u&x=1jqt" target="_blank" rel="noopener noreferrer">
-🃏 Quizlet – Baustein 03: Testmethoden</a>
+- [📦 Alle Lernkarten LS 8.5 – Quizlet Ordner](https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt)
+- [🃏 Quizlet – Baustein 03: Testmethoden](https://quizlet.com/de/1179918735/03-testmethoden-flash-cards/?i=20ii9u&x=1jqt)
 
 > Nutze die Lernkarten zur Wiederholung nach dem Baustein – 
 > ideal für Spaced Repetition und IHK-Vorbereitung!

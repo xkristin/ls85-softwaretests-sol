@@ -99,10 +99,8 @@ Weitere Tests für Grenzwerte (-273.15 Absolutnullpunkt, negative Werte) anschli
 ---
 
 ### 🎮 Lernkarten & Wiederholung
-- <a href="https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt" target="_blank" rel="noopener noreferrer">
-📦 Alle Lernkarten LS 8.5 – Quizlet Ordner</a>
-- <a href="https://quizlet.com/de/1179994835/07-test-driven-development-flash-cards/?i=20ii9u&x=1jqt" target="_blank" rel="noopener noreferrer">
-🃏 Quizlet – Baustein 07: TDD</a>
+- [📦 Alle Lernkarten LS 8.5 – Quizlet Ordner](https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt)
+- [🃏 Quizlet – Baustein 07: TDD](https://quizlet.com/de/1179994835/07-test-driven-development-flash-cards/?i=20ii9u&x=1jqt)
 
 > Nutze die Lernkarten zur Wiederholung nach dem Baustein –
 > ideal für Spaced Repetition und IHK-Vorbereitung!
