@@ -82,9 +82,10 @@ def kategorisiere_bestellung(betrag: float, ist_neukunde: bool, gutscheincode: s
 
 
 # Aufgabe 2b+c) – Testfälle für Statement und Branch Coverage:
-print("\n=== Aufgabe 2 – White-Box Coverage: kategorisiere_bestellung ===")
+if __name__ == "__main__":
+    print("\n=== Aufgabe 2 – White-Box Coverage: kategorisiere_bestellung ===")
 
-# TODO: Ergänze Testfälle für vollständige Statement Coverage
-# TODO: Ergänze weitere Testfälle für vollständige Branch Coverage
+    # TODO: Ergänze Testfälle für vollständige Statement Coverage
+    # TODO: Ergänze weitere Testfälle für vollständige Branch Coverage
 
-# Halte fest, welche Zeilen von welchem Testfall abgedeckt werden.
+    # Halte fest, welche Zeilen von welchem Testfall abgedeckt werden.

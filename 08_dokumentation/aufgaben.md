@@ -12,7 +12,7 @@
 > **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
 
 Teste dein Vorwissen mit dem Forms-Quiz:  
-👉 <a href="https://forms.office.com/e/BQurE7rxAq" target="_blank">
+👉 <a href="https://forms.office.com/e/BQurE7rxAq" target="_blank" rel="noopener noreferrer">
 📋 Forms-Quiz Baustein 08: Testdokumentation</a>
 
 > ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
