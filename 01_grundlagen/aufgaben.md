@@ -23,7 +23,7 @@ Teste dein Vorwissen mit dem Forms-Quiz:
 *Bevor du anfängst: Wie sicher fühlst du dich bei diesem Thema?*
 
 - [ ] 🟢 Ich kenne mich schon aus
-- [ ] 🟡 Ich habe eine vage Vorstellung
+- [X] 🟡 Ich habe eine vage Vorstellung
 - [ ] 🔴 Das Thema ist mir komplett neu
 
 ---
