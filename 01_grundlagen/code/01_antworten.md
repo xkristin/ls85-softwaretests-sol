@@ -18,3 +18,9 @@ Versagen: Falsches oder ungültiges ergebnis
 Die Konsequenzen eines unentdeckten Defekts können sich Rechtlich auswirken.
 
 **(c)**: Das Prinzip 7 ist immer relevant, da nie alle Fehler gefunden werden können.
+
+
+**Tandem-Aufgabe**
+A: Fehler ist der Falsche Grundgedanke und Bug ist der Fehler im Code der diesen Gedanken umsetzt. 
+B: Woher kommt der begriff Bug?
+A: Der Begriff Bug kommt von Insenkten die früher in die Elektronik geflogen sind.
