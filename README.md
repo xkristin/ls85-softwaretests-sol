@@ -14,9 +14,9 @@
 
 ```
 Klassenziel: 100 Commits bis Ende der Sequenz
-Aktuell:       4 / 100
+Aktuell:       5 / 100
 
-[█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]  4 %
+[█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]  5 %
 ```
 
 > **Wie wird gezählt?** Jeder Commit auf eurem Fork mit dem Präfix `[LS85]` zählt.
