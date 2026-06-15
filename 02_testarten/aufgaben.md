@@ -97,12 +97,12 @@ Ordne die folgenden Testszenarien zu:
 
 | Testszenario | Funktional | Nicht-funktional |
 |-------------|-----------|-----------------|
-| Login mit korrekten Zugangsdaten klappt | | |
-| Seite lädt in unter 2 Sekunden | | |
-| Bestellung wird korrekt in der Datenbank gespeichert | | |
-| System ist bei 1000 gleichzeitigen Nutzern stabil | | |
-| Passwort-Reset-Mail wird verschickt | | |
-| Alle Texte sind auf Deutsch (Lokalisierung) | | |
+| Login mit korrekten Zugangsdaten klappt |X| |
+| Seite lädt in unter 2 Sekunden | |X|
+| Bestellung wird korrekt in der Datenbank gespeichert | |X|
+| System ist bei 1000 gleichzeitigen Nutzern stabil | |X|
+| Passwort-Reset-Mail wird verschickt |X| |
+| Alle Texte sind auf Deutsch (Lokalisierung) |X| |
 
 ---
 
