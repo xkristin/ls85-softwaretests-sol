@@ -195,16 +195,21 @@ Haltet euer Ergebnis als Tabelle in `02_antworten.md` fest.
 *Beantworte diese Fragen aus dem Gedächtnis (Unterlagen geschlossen):*
 
 1. Auf welcher Teststufe werden Schnittstellen zwischen Modulen getestet?
+- Integrationstests
 2. Wer führt typischerweise den Abnahmetest durch?
+- Der Auftraggeber
 3. Was ist der Unterschied zwischen einem Systemtest und einem Abnahmetest?
+- Beim Systemtest wirde das Programm gegen alle Anforderungen getestet und bei der Abnahme prüft der Auftraggeber ob alle Anforderungen vorhanden sind und Funktionieren
 4. Nenne ein Beispiel für einen nicht-funktionalen Test.
+- Die Geschwindigkeit einer Website
 5. Wann werden Regressionstests eingesetzt?
+Wenn ändeungen gemacht wurden aber nichts neues hinzugefügt wurde 
 
 ---
 
 ## Reflexion 🚦
 
-- [ ] 🟢 Ich kann alle Teststufen erklären und anwenden
+- [X] 🟢 Ich kann alle Teststufen erklären und anwenden
 - [ ] 🟡 Ich verstehe das Konzept, aber die Abgrenzung ist noch nicht ganz klar
 - [ ] 🔴 Ich brauche noch Unterstützung
 
