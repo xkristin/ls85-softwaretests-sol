@@ -195,7 +195,7 @@ Haltet das Ergebnis in `01_antworten.md` fest (3–5 Sätze).
 
 *Nach dem Bearbeiten: Wie schätzt du dich jetzt ein?*
 
-- [ ] 🟢 Ich verstehe alle Konzepte und kann sie erklären
+- [X] 🟢 Ich verstehe alle Konzepte und kann sie erklären
 - [ ] 🟡 Ich verstehe die meisten Konzepte, habe aber noch Fragen
 - [ ] 🔴 Ich brauche noch mehr Zeit oder Unterstützung
 
