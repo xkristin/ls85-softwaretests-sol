@@ -60,17 +60,17 @@ if __name__ == "__main__":
     # TODO: Test 1 – Normaler Einkauf ohne Rabatt
     # Erwartetes Ergebnis: 69.97
     print("Test 1 – Kein Rabatt:")
-    # Dein Code hier
+    # Preis = 2*19.99 + 29.99 = 69.97
 
     # TODO: Test 2 – Einkauf mit 10 % Rabatt
     # Erwartetes Ergebnis: 62.97
     print("\nTest 2 – 10 % Rabatt:")
-    # Dein Code hier
+    # Preis = (2*19.99 + 29.9) * 0.9 = 62.97
 
     # TODO: Test 3 – Leerer Warenkorb (Sonderfall)
     # Erwartetes Ergebnis: 0.0 (keine Exception!)
     print("\nTest 3 – Leerer Warenkorb:")
-    # Dein Code hier
+    # return 0.0 
 
 
 # ============================================================

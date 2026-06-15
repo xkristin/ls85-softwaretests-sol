@@ -78,10 +78,10 @@ Ein Team entwickelt einen einfachen Online-Webshop mit folgenden Komponenten:
 
 | Teststufe | Konkretes Testbeispiel |
 |-----------|----------------------|
-| Unit-Test | |
-| Integrationstest | |
-| Systemtest | |
-| Abnahmetest | |
+| Unit-Test | Testen der Gesamtpreis Funktion |
+| Integrationstest |  Bei dem Bestellprozess wird das zusammenspiel von Warenkorb, Zahlung und Lager getestet |
+| Systemtest | Es wird es etwas in diesem Shop bestellt |
+| Abnahmetest | Der Kunde testet den Shop |
 
 **b)** In `code/starter.py` findest du die Funktion `berechne_gesamtpreis()`.
 Schreibe einen einfachen manuellen Test (mit `print()`), der folgende Fälle prüft:
