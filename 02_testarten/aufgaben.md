@@ -135,10 +135,15 @@ Das Entwicklungsteam hat folgende Testmaßnahmen geplant:
 - Das HR-Team führt abschließend einen formalen Abnahmetest durch
 
 **(a)** Ordnen Sie diese drei Maßnahmen den Teststufen im V-Modell zu. *(3 Punkte)*
+1. Unit-Test
+2. Integrationstest
+3. Systemtest
 
 **(b)** Nennen Sie eine weitere Teststufe, die im Plan fehlt, und beschreiben Sie, was dort getestet werden sollte. *(3 Punkte)*
+Abnahme. Der Kunde prüft ob das Programm seinen Anforderungen entspricht.
 
 **(c)** Das HR-Team meldet beim Abnahmetest, dass Urlaubstage falsch berechnet werden. Auf welcher Teststufe hätte dieser Fehler idealerweise gefunden werden sollen? Begründen Sie. *(4 Punkte)*
+Beim Unit-Test, da das eine einzelne Funktion ist, was der zuständige Programmierer direkt hätte testen und damit den Fehler hätte finden können.
 
 ---
 
