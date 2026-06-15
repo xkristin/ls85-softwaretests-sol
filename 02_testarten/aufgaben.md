@@ -113,10 +113,13 @@ Dein Team hat den Rabattrechner aus Baustein 01 korrigiert.
 Jetzt soll eine neue Funktion "Mengenrabatt" (ab 10 Stück = 5 % extra Rabatt) hinzugefügt werden.
 
 **a)** Was ist ein Regressionstest? Erkläre mit eigenen Worten.
+# Wenn bestehende Tests nach einem Update erneut angewendet werden
 
 **b)** Welche bestehenden Tests müssten nach der Änderung als Regressionstests erneut ausgeführt werden? Liste mindestens 3 auf.
+# Systemtestes, Integrationstest und Unit-Tests
 
 **c)** Warum ist das automatisierte Ausführen von Regressionstests besonders wertvoll?
+# Es wird zeit gespart weil nich jedes mal neue tests geschrieben werden müssen
 
 ---
 
